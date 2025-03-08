@@ -3,10 +3,10 @@ package hm.it.rtk;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+
+    private static String msg = "Hello, you're guru, and you're welcome!";
+
     public static void main(String[] args) {
-
-
-        private static String msg = "Hello, you're guru, and you're welcome!";
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf(getMessage());
@@ -20,6 +20,6 @@ public class Main {
     }
 
     private static String getMessage() {
-        return ("Hello, qa.guru!");
+        return msg;
     }
 }
