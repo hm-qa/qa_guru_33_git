@@ -5,6 +5,8 @@ package hm.it.rtk;
 public class Main {
     public static void main(String[] args) {
 
+
+        private static String msg = "Hello, you're guru, and you're welcome!";
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf(getMessage());
@@ -21,6 +23,3 @@ public class Main {
         return ("Hello, qa.guru!");
     }
 }
-
-
-
